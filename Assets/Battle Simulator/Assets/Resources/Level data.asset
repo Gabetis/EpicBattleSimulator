@@ -1,0 +1,1481 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf5867c057f356428413cc10ff1e332, type: 3}
+  m_Name: Level data
+  m_EditorClassIdentifier: 
+  levels:
+  - gridSize: 5
+    units:
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 300
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 8
+  - gridSize: 6
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 550
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 10
+  - gridSize: 6
+    units:
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 650
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 10
+  - gridSize: 5
+    units:
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 550
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 10
+  - gridSize: 7
+    units:
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 650
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 12
+  - gridSize: 8
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: d7ae8a42f3dc3e14b9d0a11741bc44f2, type: 3}
+    - {fileID: 1000013090372502, guid: d7ae8a42f3dc3e14b9d0a11741bc44f2, type: 3}
+    - {fileID: 1000013090372502, guid: b71d2aca0d4d135409c48787a5dd5133, type: 3}
+    - {fileID: 1000013090372502, guid: b71d2aca0d4d135409c48787a5dd5133, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: d7ae8a42f3dc3e14b9d0a11741bc44f2, type: 3}
+    - {fileID: 1000013090372502, guid: d7ae8a42f3dc3e14b9d0a11741bc44f2, type: 3}
+    - {fileID: 1000013090372502, guid: b71d2aca0d4d135409c48787a5dd5133, type: 3}
+    - {fileID: 1000013090372502, guid: b71d2aca0d4d135409c48787a5dd5133, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: d7ae8a42f3dc3e14b9d0a11741bc44f2, type: 3}
+    - {fileID: 1000013090372502, guid: d7ae8a42f3dc3e14b9d0a11741bc44f2, type: 3}
+    - {fileID: 1000013090372502, guid: b71d2aca0d4d135409c48787a5dd5133, type: 3}
+    - {fileID: 1000013090372502, guid: b71d2aca0d4d135409c48787a5dd5133, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 950
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 15
+  - gridSize: 5
+    units:
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 950
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 15
+  - gridSize: 5
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: 2652f43760cddd84890d42a02c6777e6, type: 3}
+    - {fileID: 1000013090372502, guid: 5cbeacc171ae5e443b44dcef77c1f4a3, type: 3}
+    - {fileID: 1000013090372502, guid: 2652f43760cddd84890d42a02c6777e6, type: 3}
+    - {fileID: 0}
+    playerCoins: 1000
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 15
+  - gridSize: 5
+    units:
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    playerCoins: 1000
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 15
+  - gridSize: 5
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 1600
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 20
+  - gridSize: 8
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: 5cbeacc171ae5e443b44dcef77c1f4a3, type: 3}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: 5cbeacc171ae5e443b44dcef77c1f4a3, type: 3}
+    - {fileID: 0}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 1500
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 20
+  - gridSize: 9
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: 2652f43760cddd84890d42a02c6777e6, type: 3}
+    - {fileID: 1000013090372502, guid: 2652f43760cddd84890d42a02c6777e6, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 1500
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 20
+  - gridSize: 12
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 1669688767034894, guid: 6a4aeeced9e3c2e45a62a2d8ffc0caf1, type: 3}
+    - {fileID: 1669688767034894, guid: 6a4aeeced9e3c2e45a62a2d8ffc0caf1, type: 3}
+    - {fileID: 1669688767034894, guid: 6a4aeeced9e3c2e45a62a2d8ffc0caf1, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 1800
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 20
+  - gridSize: 9
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 1600
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 20
+  - gridSize: 5
+    units:
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: 2652f43760cddd84890d42a02c6777e6, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    playerCoins: 1500
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 20
+  - gridSize: 12
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: f790d28b14a70cc4fa8edf54b97012be, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 2000
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 25
+  - gridSize: 8
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: a3202e8fe24cf0e449724915a54a041f, type: 3}
+    - {fileID: 1669688767034894, guid: a3202e8fe24cf0e449724915a54a041f, type: 3}
+    - {fileID: 1669688767034894, guid: a3202e8fe24cf0e449724915a54a041f, type: 3}
+    - {fileID: 1669688767034894, guid: a3202e8fe24cf0e449724915a54a041f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1187676115651614, guid: 24e99646943252e41a48715147974c51, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 2000
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 25
+  - gridSize: 7
+    units:
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 1669688767034894, guid: 7b2c425176b1c9d4b8888ea0458270f9, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 2000
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 25
+  - gridSize: 6
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: 5cbeacc171ae5e443b44dcef77c1f4a3, type: 3}
+    - {fileID: 1000013090372502, guid: 5cbeacc171ae5e443b44dcef77c1f4a3, type: 3}
+    - {fileID: 1000013090372502, guid: 5cbeacc171ae5e443b44dcef77c1f4a3, type: 3}
+    - {fileID: 0}
+    playerCoins: 1800
+    mapName: Levels
+    mapPrefab: {fileID: 7731187649858118081, guid: 5b64d6cd67dfdd34fb8ac9128ae7336e, type: 3}
+    quanityLimit: 25
+  - gridSize: 0
+    units: []
+    playerCoins: 0
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 0
+  - gridSize: 15
+    units:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 6a4aeeced9e3c2e45a62a2d8ffc0caf1, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 6a4aeeced9e3c2e45a62a2d8ffc0caf1, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 1293378887529114, guid: d2e0e077d5ddbcc47a60bc920258771d, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 6a4aeeced9e3c2e45a62a2d8ffc0caf1, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 1669688767034894, guid: e5f0a2bf10e814c468a149c9c3dbc7f8, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    playerCoins: 2500
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 25
+  - gridSize: 6
+    units:
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1669688767034894, guid: 336f914e50820f443bdc101ac6df2d35, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 1669688767034894, guid: 297039803e1215e48bfb9150cac3725f, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 1000013090372502, guid: db9d8fdd9687f2e478615d352d0c53a5, type: 3}
+    - {fileID: 0}
+    playerCoins: 0
+    mapName: Levels
+    mapPrefab: {fileID: 1410089065695702768, guid: ca6d1abe960015147b810acd28a42a36, type: 3}
+    quanityLimit: 0
+  armyToEdit: 21
+  customEnemyImages:
+  - {fileID: 2800000, guid: e8b6e3aacff65ca49b48703b564ea649, type: 3}
+  - {fileID: 2800000, guid: 1d60c38db66138f41a20dca006ee775a, type: 3}
+  - {fileID: 2800000, guid: cd1e0599e93b20a42bf3577ff5bc14ad, type: 3}
+  - {fileID: 2800000, guid: 1d60c38db66138f41a20dca006ee775a, type: 3}
+  - {fileID: 2800000, guid: 3058e17688324032bba92a0245463d89, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 2a3ff27efa7d4281bb4d154cd48864c1, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 3058e17688324032bba92a0245463d89, type: 3}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 24d39e99711e53d48b49141689a3a171, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 3058e17688324032bba92a0245463d89, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  customImages: 1
+  spawnDelay: 0.05
+  grid: 0
+  buttonHighlight: {r: 0, g: 0.47068942, b: 0.75, a: 1}
+  tileColor: {r: 0.38489407, g: 0.72015417, b: 0.8308824, a: 1}
+  invalidPosition: {r: 0.8455882, g: 0.28900936, b: 0.16165657, a: 1}
+  removeColor: {r: 1, g: 0, b: 0, a: 0.597}
+  eraseButtonColor: {r: 0.8161765, g: 0.4861051, b: 0.4861051, a: 1}
+  selectedPanelColor: {r: 0.5735294, g: 0.5735294, b: 0.5735294, a: 1}
+  borderColor: {r: 0.9264706, g: 0.20450944, b: 0.10218424, a: 0.466}
+  demoCharacterAlpha: 0.7
+  buttonEffectTime: 2
+  checkRange: 1.9
+  rotationStep: 90
+  placeRange: 100
+  gridSize: 10
+  snappingKey: 306
+  spreadUnits: 0
