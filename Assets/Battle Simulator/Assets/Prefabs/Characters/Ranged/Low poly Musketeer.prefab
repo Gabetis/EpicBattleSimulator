@@ -504,8 +504,8 @@ GameObject:
   - component: {fileID: 195000011514409798}
   - component: {fileID: 136000012385900850}
   - component: {fileID: 114000013598431042}
-  - component: {fileID: 114000010371346062}
   - component: {fileID: 82697274399593718}
+  - component: {fileID: -6675579658365384259}
   m_Layer: 0
   m_Name: Low poly Musketeer
   m_TagString: Knight
@@ -620,22 +620,6 @@ MonoBehaviour:
   runAudio: {fileID: 8300000, guid: cd41989856d1c6e4abe027a567d456cb, type: 3}
   currentTarget: {fileID: 0}
   spread: 0
---- !u!114 &114000010371346062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000013090372502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c0634a2828db354a8554d514b39f0ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrow: {fileID: 1000011467470154, guid: aa37ba82e9371354b9606e1e872812b1, type: 3}
-  arrowSpawner: {fileID: 4000013905428084}
-  animationArrow: {fileID: 0}
-  attackSpeed: 0.16
 --- !u!82 &82697274399593718
 AudioSource:
   m_ObjectHideFlags: 0
@@ -732,6 +716,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &-6675579658365384259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013090372502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0634a2828db354a8554d514b39f0ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrow: {fileID: 1000011467470154, guid: aa37ba82e9371354b9606e1e872812b1, type: 3}
+  arrowSpawner: {fileID: 4000013905428084, guid: f162839ee39377046abc59e28685303f, type: 3}
+  animationArrow: {fileID: 2239246855322338496, guid: f162839ee39377046abc59e28685303f, type: 3}
 --- !u!1 &425289261263281466
 GameObject:
   m_ObjectHideFlags: 0

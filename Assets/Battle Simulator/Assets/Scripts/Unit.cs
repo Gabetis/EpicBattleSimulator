@@ -122,7 +122,7 @@ public class Unit : MonoBehaviour {
 
 		float distance = Vector3.Distance(currentTarget.position, transform.position);
 
-		if(distance > agent.stoppingDistance)
+		if(distance > agent.stoppingDistance + 1f)
 		{
 			// Địch ở xa -> chạy
 			agent.isStopped = false;
@@ -146,14 +146,20 @@ public class Unit : MonoBehaviour {
 		Vector3 currentTargetPosition = currentTarget.position;
 		currentTargetPosition.y = transform.position.y;
 		transform.LookAt(currentTargetPosition);
-		animator.speed = 1f;
 		animator.SetBool("Start", false); 
-		animator.SetBool("Attacking", true); 
-
 		if(attackSpeed <= 0f) return;
-		attackTimer -= Time.fixedDeltaTime;
-
-		if(attackTimer > 0f) return;
+		
+        // 1. Đang Cooldown -> VỀ IDLE (cả Melee lẫn Archer)
+        if(attackTimer > 0f) {
+            attackTimer -= Time.fixedDeltaTime;
+            if(GetComponent<Archer>() == null) {  
+                animator.SetBool("Attacking", false);
+            }
+            return;
+        }
+        // 2. Hết Cooldown -> Ra đòn
+        animator.speed = 1f;
+        animator.SetBool("Attacking", true);
 
 		if(source.clip != attackAudio)
 		{
@@ -164,11 +170,20 @@ public class Unit : MonoBehaviour {
 		if(targetUnit != null)
 		{
 			Bomb_Unit bomb = GetComponent<Bomb_Unit>();
-			
+			AOE_unit aoe = GetComponent<AOE_unit>();
+			Archer archer = GetComponent<Archer>();
+
 			if (bomb != null) {
 				bomb.Explode(attackSpeed);
-				return; 
-			} else {
+			}
+			else if(aoe != null) {
+				aoe.AOEAttack(attackSpeed);
+			}
+			else if (archer != null)
+			{
+				archer.Shoot();
+			}
+			else {
 				targetUnit.lives -= damage;
 			}
 		}

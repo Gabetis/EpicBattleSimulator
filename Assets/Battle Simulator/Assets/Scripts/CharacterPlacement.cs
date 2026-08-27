@@ -60,6 +60,7 @@ public class CharacterPlacement : MonoBehaviour {
 	public Text statsHealth;
 	public Text statsRange;
 	public Text statsSpeed;
+
 	public Text coinsText;
 	public Text QuanityLimitedText;
 	public Text levelInfo;
