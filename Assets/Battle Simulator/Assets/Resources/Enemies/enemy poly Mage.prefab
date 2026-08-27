@@ -317,6 +317,7 @@ GameObject:
   - component: {fileID: 136671936564295108}
   - component: {fileID: 82756991015725798}
   - component: {fileID: 2836173256912838914}
+  - component: {fileID: 5954635063201676532}
   m_Layer: 0
   m_Name: enemy poly Mage
   m_TagString: Enemy
@@ -551,6 +552,21 @@ LODGroup:
     renderers:
     - renderer: {fileID: 0}
   m_Enabled: 1
+--- !u!114 &5954635063201676532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669688767034894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c0634a2828db354a8554d514b39f0ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrow: {fileID: 0}
+  arrowSpawner: {fileID: 0}
+  animationArrow: {fileID: 0}
 --- !u!1 &1812207552098110
 GameObject:
   m_ObjectHideFlags: 0

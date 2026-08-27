@@ -5,39 +5,50 @@ using UnityEngine;
 public class AOE_unit : MonoBehaviour
 {
     public float AOERadius = 3f; 
-    private float AOEDamage;
+    
+    public BoxCollider attackZone;
+    
     public GameObject AOEEffect;
-
-    public Unit unit;
+    private Unit unit;
 
     void Awake()
     {
         unit = GetComponent<Unit>();
-        AOEDamage = unit.damage;
     }
 
     public void AOEAttack(float time)
     {
-        Collider[] colliders = Physics.OverlapSphere(transform.position, AOERadius);
+        float currentDamage = unit.damage;
         
-        foreach (Collider hit in colliders)
+        Collider[] collidersToHit; // Mảng chứa các mục tiêu quét trúng
+
+        if (attackZone != null)
+        {
+            Vector3 boxCenter = attackZone.transform.TransformPoint(attackZone.center);
+            Vector3 halfExtents = Vector3.Scale(attackZone.size, attackZone.transform.lossyScale) * 0.5f;
+            
+            collidersToHit = Physics.OverlapBox(boxCenter, halfExtents, attackZone.transform.rotation);
+        }
+        else
+        {
+            collidersToHit = Physics.OverlapSphere(transform.position, AOERadius);
+        }
+        
+        foreach (Collider hit in collidersToHit)
         {
             Unit targetUnit = hit.GetComponent<Unit>();
             
-            if (targetUnit != null && targetUnit.gameObject.tag != gameObject.tag)
+            if (targetUnit != null && !targetUnit.CompareTag(gameObject.tag))
             {
-                targetUnit.lives -= AOEDamage;
+                targetUnit.lives -= currentDamage;
             }
         }
 
         if (AOEEffect != null)
         {
-            Instantiate(AOEEffect, transform.position, Quaternion.identity);
+            // Nếu có hộp thì sinh hiệu ứng ở giữa hộp, nếu không thì sinh dưới chân con voi
+            Vector3 effectPos = (attackZone != null) ? attackZone.transform.TransformPoint(attackZone.center) : transform.position;
+            Instantiate(AOEEffect, effectPos, Quaternion.identity);
         }
     } 
-
-    private IEnumerator AOEAttackDelay(float time)
-    {
-        yield return new WaitForSeconds(time);
-    }
 }

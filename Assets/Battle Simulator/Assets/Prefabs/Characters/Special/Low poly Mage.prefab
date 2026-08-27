@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 160
-  damage: 0
+  damage: 40
   attackSpeed: 0.7
   attackTag: Enemy
   ragdoll: {fileID: 1262423609540208, guid: d3eb932118a09de43a627cc0a8907255, type: 3}
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c0634a2828db354a8554d514b39f0ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 1000011467470154, guid: 5f7cd1532c852b14eba513a796e92df9, type: 3}
+  arrow: {fileID: 1000011467470154, guid: a47f9e493f4631149bc16eb96468509a, type: 3}
   arrowSpawner: {fileID: 1633140707432526218}
   animationArrow: {fileID: 6261678906547350384}
 --- !u!1 &1812207552098110
